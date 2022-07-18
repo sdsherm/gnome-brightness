@@ -1,5 +1,5 @@
 {
-  "description": "Simple GNOME extension to control displays' brightness via DDC. It requires ddcutil to be installed, I2C permissions for non-root users configured.",
+  "description": "Simple GNOME extension to control displays' adapted from bruno.englert's gitlab extension to use xrandr instead of DDC",
   "name": "Adjust Display Brightness",
   "shell-version": [
     "42",
@@ -7,7 +7,7 @@
     "40",
     "3.36"
   ],
-  "url": "https://gitlab.com/bruno.englert/gnome-extension-brightness",
-  "uuid": "gnome-extension-brightness@bruno.englert.gitlab.com",
-  "version": 200
+  "url": "https://github.com/sdsherm/gnome-brightness.git",
+  "uuid": "gnome-extension-brightness@sdsherm.github.com",
+  "version": 100
 }
